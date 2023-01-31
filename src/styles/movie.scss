@@ -1,0 +1,72 @@
+.movie {
+	margin: 2rem auto;
+	padding: 3rem 1.2rem;
+	width: 85%;
+	max-width: 400px;
+	border-radius: 10px;
+	background-color: white;
+	color: black;
+	box-shadow: 3px 8px 11px 0px rgba(66, 68, 90, 0.25);
+
+	&__content {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		text-align: center;
+	}
+
+	&__title {
+		margin-bottom: 2rem;
+		font-size: 2rem;
+	}
+
+	&__img {
+		height: 200px;
+		border-radius: 10px;
+	}
+
+	&__text {
+		margin: 2rem 0;
+		padding: 0 2rem;
+		font-size: 1.4rem;
+	}
+
+	&__rating {
+		display: flex;
+		justify-content: center;
+		font-weight: bold;
+		font-size: 2.5rem;
+
+		svg {
+			margin-top: 0.2rem;
+			color: #ffc200;
+		}
+
+		span {
+			margin-left: 0.5rem;
+		}
+	}
+
+	&__controls {
+		display: flex;
+		justify-content: space-around;
+		margin-top: 3rem;
+	}
+}
+
+.control-btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 60px;
+	height: 60px;
+	border: none;
+	border-radius: 50%;
+	font-size: 3rem;
+	color: #ff4b70;
+
+	&--like {
+		color: #23e4a5;
+	}
+}

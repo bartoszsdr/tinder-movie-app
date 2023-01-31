@@ -1,0 +1,24 @@
+.home {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	&__heading {
+		margin-bottom: 2rem;
+		font-size: 3rem;
+	}
+
+	&__link {
+		display: flex;
+		border-radius: 10px;
+		background-color: #f75561;
+		font-size: 1.4rem;
+
+		a {
+			padding: 1rem 2rem;
+			transition: color 0.3s;
+			&:hover {
+				color: white;
+			}
+		}
+	}
+}
